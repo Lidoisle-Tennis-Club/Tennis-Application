@@ -4,7 +4,7 @@ export class calendar extends Component {
     render() {
         return (
             <div>
-                hi
+                hello!
             </div>
         )
     }
