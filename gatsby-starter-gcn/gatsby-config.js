@@ -28,7 +28,7 @@ module.exports = {
         slug: '/',
       },
       {
-        name: 'About',
+        name: 'Calendar',
         slug: '/about/',
       },
       {
