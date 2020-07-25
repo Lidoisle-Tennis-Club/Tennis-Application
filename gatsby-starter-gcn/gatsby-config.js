@@ -44,6 +44,8 @@ module.exports = {
     `gatsby-plugin-emotion`,
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -62,6 +64,13 @@ module.exports = {
           },
         ],
       },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: `images`,
+        path: `${__dirname}/static/images`
+      }
     },
     `gatsby-plugin-catch-links`,
     {

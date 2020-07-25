@@ -4,6 +4,8 @@ import { Global } from '@emotion/core'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 import { globalStyles } from '../styles/globalStyles.js'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 const Root = styled.div`
   font-family: ${props => props.theme.fonts.body};
