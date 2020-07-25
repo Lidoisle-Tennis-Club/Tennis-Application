@@ -45,7 +45,8 @@ const Footer = () => (
   <Wrapper>
     <List>
       <Item>
-        <a
+        Copyright © 2020, Lidoisle Tennis. All Rights Reserved
+        {/* <a
           href="https://www.contentful.com/"
           rel="nofollow noopener noreferrer"
           target="_blank"
@@ -55,10 +56,11 @@ const Footer = () => (
             style={{ width: '100px' }}
             alt="Powered by Contentful"
           />
-        </a>
+        </a> */}
       </Item>
       <Item>
-        <a
+        <p>Lidoisle Tennis Club</p>
+        {/* <a
           href="https://github.com/ryanwiemer/gatsby-starter-gcn"
           target="_blank"
           rel="noopener noreferrer"
@@ -72,7 +74,7 @@ const Footer = () => (
           rel="noopener noreferrer"
         >
           @ryanwiemer
-        </a>
+        </a> */}
       </Item>
     </List>
   </Wrapper>
