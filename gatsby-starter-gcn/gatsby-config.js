@@ -1,3 +1,5 @@
+const dotenv = require('dotenv').config();
+
 let contentfulConfig
 try {
   contentfulConfig = require('./.contentful')
@@ -5,8 +7,12 @@ try {
   contentfulConfig = {
     production: {
       spaceId: process.env.SPACE_ID,
-      accessToken: process.env.ACCESS_TOKEN,
+      accessToken: process.env.ACCESS_TOKEN
     },
+    development: {
+      spaceId: process.env.SPACE_ID,
+      accessToken: process.env.ACCESS_TOKEN
+    }
   }
 } finally {
   const { spaceId, accessToken } = contentfulConfig.production
